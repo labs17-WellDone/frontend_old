@@ -1,0 +1,9 @@
+{
+  "extends": ["airbnb", "prettier", "plugin:cypress/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "func-names": "off"
+  },
+  "parser": "babel-eslint"
+}
